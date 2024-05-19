@@ -1,5 +1,5 @@
 <?php
-$organizerEmail = 'organizer@example.com';
+$organizerEmail = 'madibelaorapeleng17@gmail.com';
 $subject = 'RSVP List for Birthday Party';
 $headers = 'From: noreply@example.com' . "\r\n" .
            'Reply-To: noreply@example.com' . "\r\n" .
