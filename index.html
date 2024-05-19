@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Party Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="title">You're Invited <br> To</h1>
+            <h3 class="name-years">ZIKA 60th</h3>
+            <h2 class="event-name">Birthday Party</h2>
+            <p class="date-time">Date: May 25, 2024<br>Time: 5:00 PM</p>
+            <p class="venue">Venue: MORAGO GA THABA SECTION <br>KRAALHOEK<br>RSVP 083 537 0908<br>BRING YOUR OWN ALCOHOL</p>
+            <button id="toggle-details-btn" class="btn">Show Details</button>
+            <div id="details" class="details-hidden">
+                <p>Dress Code: Casual</p>
+                <p>Bring: Yourself and a Smile</p>
+            </div>
+            <form id="rsvp-form" class="form" action="rsvp.php" method="POST">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="tel" id="phone" name="phone" placeholder="Your Cell Phone Number" required>
+                <input type="email" id="email" name="email" placeholder="Your Email (Optional)">
+                <button type="submit" class="btn">SUBMIT RSVP</button>
+            </form>
+            <p id="confirmation-message" class="confirmation-hidden">Thank you for your RSVP!</p>
+        </div>
+    </div>
+</body>
+</html>

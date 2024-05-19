@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #000000, #555555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    border: 5px solid #FFD700;
+}
+
+.title,
+.name-years {
+    color: #FFD700;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.event-name {
+    color: #FFA500;
+    font-size: 26px;
+}
+
+.date-time,
+.venue {
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FFA500;
+}
+
+#details {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.details-hidden {
+    display: none;
+}
+
+.confirmation-hidden {
+    display: none;
+    color: green;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+.form {
+    margin-top: 20px;
+}
